@@ -57,6 +57,12 @@ npx skills add nvidia/skills --skill cuopt-numerical-optimization-api --agent cl
 npx skills add nvidia/skills --skill cuopt-numerical-optimization-api --agent codex
 ```
 
+**Cortex**
+
+```bash
+npx skills add nvidia/skills --skill cuopt-numerical-optimization-api --agent cortex
+```
+
 **Cursor**
 
 ```bash
