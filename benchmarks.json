@@ -2,7 +2,7 @@
   "schema_version": 2,
   "source": "skills/*/BENCHMARK.md",
   "skill_count": 230,
-  "result_row_count": 2080,
+  "result_row_count": 2090,
   "skills_without_results": [
     "deepstream-generate-pipeline",
     "digital-health-clinical-asr-setup",
@@ -22,7 +22,6 @@
     "omniverse-realtime-viewer",
     "omniverse-usd-performance-tuning",
     "physical-ai-infrastructure-setup-and-resilient-scaling",
-    "physical-ai-neural-reconstruction",
     "rag-blueprint",
     "rag-eval",
     "rag-perf"
@@ -2568,18 +2567,21 @@
     },
     {
       "skill": "physical-ai-neural-reconstruction",
-      "evaluation_date": "2026-05-28",
+      "evaluation_date": "2026-07-16",
       "profile": "external",
-      "environment": null,
-      "tasks": null,
-      "attempts_per_task": null,
-      "pass_threshold_pct": null,
+      "environment": "astra-sandbox",
+      "tasks": 4,
+      "attempts_per_task": 1,
+      "pass_threshold_pct": 50.0,
       "verdict": "PASS",
-      "agents": [],
+      "agents": [
+        "claude-code",
+        "codex"
+      ],
       "catalog_dir": "physical-ai-neural-reconstruction",
       "component": "Physical AI",
-      "has_results": false,
-      "average_uplift_pct": null
+      "has_results": true,
+      "average_uplift_pct": 36.4
     },
     {
       "skill": "physical-ai-people-attribute-search",
@@ -15443,6 +15445,96 @@
       "agent": "codex",
       "score_pct": 69.0,
       "uplift_pct": 33.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Security",
+      "num": 4,
+      "agent": "claude-code",
+      "score_pct": 100.0,
+      "uplift_pct": 0.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Security",
+      "num": 4,
+      "agent": "codex",
+      "score_pct": 100.0,
+      "uplift_pct": 0.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Correctness",
+      "num": 4,
+      "agent": "claude-code",
+      "score_pct": 93.0,
+      "uplift_pct": 52.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Correctness",
+      "num": 4,
+      "agent": "codex",
+      "score_pct": 91.0,
+      "uplift_pct": 34.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Discoverability",
+      "num": 4,
+      "agent": "claude-code",
+      "score_pct": 100.0,
+      "uplift_pct": 56.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Discoverability",
+      "num": 4,
+      "agent": "codex",
+      "score_pct": 95.0,
+      "uplift_pct": 51.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Effectiveness",
+      "num": 4,
+      "agent": "claude-code",
+      "score_pct": 79.0,
+      "uplift_pct": 52.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Effectiveness",
+      "num": 4,
+      "agent": "codex",
+      "score_pct": 81.0,
+      "uplift_pct": 36.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Efficiency",
+      "num": 4,
+      "agent": "claude-code",
+      "score_pct": 95.0,
+      "uplift_pct": 43.0
+    },
+    {
+      "catalog_dir": "physical-ai-neural-reconstruction",
+      "component": "Physical AI",
+      "dimension": "Efficiency",
+      "num": 4,
+      "agent": "codex",
+      "score_pct": 91.0,
+      "uplift_pct": 40.0
     },
     {
       "catalog_dir": "physical-ai-people-attribute-search",
